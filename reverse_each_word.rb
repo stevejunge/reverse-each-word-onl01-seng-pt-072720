@@ -5,8 +5,8 @@ def reverse_each_word(string)
   new_array.each do |word|
     addl_array << word.reverse
   end
-new_array.join(" ")
-new_array
+addl_array.join(" ")
+addl_array
 end  
   
 def reverse_each_word_with_collect(string)
