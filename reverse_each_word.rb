@@ -9,9 +9,10 @@ addl_array.join(" ")
 end  
   
 def reverse_each_word(string)
-  string.split
-  string.collect do |word|
-    string << word.reverse
+  new_array = []
+  new_array = string.split
+  new_array.collect do |word|
+    new_array << word.reverse
   end.join(" ")
 
 end  
